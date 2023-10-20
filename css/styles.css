@@ -75,6 +75,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  margin-left: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -85,7 +86,7 @@ address {
 
 .header-menu-list {
   display: flex;
-  *gap: 40px;
+  /*gap: 40px;*/
 }
 
 .header-menu-link {
@@ -165,20 +166,22 @@ address {
   display: flex;
   gap: 40px;
 }
-/*=============hero=============*/
+/*=============1=============hero=============*/
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  /*padding: 188px 0;*/
 }
 .hero-container {
   width: 1440px;
   height: 600px;
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,6 +212,7 @@ address {
   border: none;
   cursor: pointer;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -234,7 +238,7 @@ address {
   overflow: hidden;
 }
 
-/*=============features=============*/
+/*=============2=============features=============*/
 
 .features-list {
   display: flex;
@@ -302,7 +306,7 @@ address {
   margin-right: none;
 }
 
-/*=============team=============*/
+/*=============3=============team=============*/
 
 .team {
   background-color: #f4f4fd;
@@ -398,7 +402,7 @@ address {
   background-color: #404bbf;
 }
 
-/*=============portfolio=============*/
+/*=============4=============portfolio=============*/
 
 .portfolio {
   padding-top: 120px;
