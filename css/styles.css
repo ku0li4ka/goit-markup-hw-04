@@ -96,6 +96,11 @@ address {
   letter-spacing: 0.02em;
 }
 
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
@@ -109,22 +114,18 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current {
-  position: relative;
-  width: 0;
-}
-
 .current::after {
   content: "";
   position: absolute;
-  display: block;
+  /* display: block;*/
   width: 0;
+  left: 0;
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-  bottom: -28px;
+  bottom: -1px;
 }
-
+/*
 .current:hover {
   color: #404bbf;
 }
@@ -132,7 +133,7 @@ address {
 .current:hover::after {
   width: 100%;
 }
-
+*/
 .header-contacts-list {
   display: flex;
   gap: 40px;
