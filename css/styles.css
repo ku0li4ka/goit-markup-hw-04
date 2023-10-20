@@ -369,12 +369,12 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 
 .social-item {
   width: 40px;
   height: 40px;
-  gap: 24px;
 }
 
 .social-link {
@@ -385,7 +385,7 @@ address {
   transition: background-color 0.3s ease;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 50%;
   background-color: #4d5ae5;
   border: none;
   display: flex;
