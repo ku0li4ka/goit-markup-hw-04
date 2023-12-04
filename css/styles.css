@@ -427,7 +427,7 @@ address {
 }
 
 .portfolio-item:hover .portfolio-cover-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 /*
 .portfolio-item:hover .portfolio-cover-block {
