@@ -360,6 +360,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .social-list {
@@ -372,13 +373,10 @@ address {
 .social-item {
   width: 40px;
   height: 40px;
-}
-
-.social-list .social-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-link {
-  margin-top: 8px;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
