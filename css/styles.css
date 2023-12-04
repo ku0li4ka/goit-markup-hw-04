@@ -117,8 +117,8 @@ address {
 .current::after {
   content: "";
   position: absolute;
-  /* display: block;*/
-  width: 0;
+  display: block;
+  width: 100%;
   left: 0;
   height: 4px;
   border-radius: 2px;
