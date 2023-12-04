@@ -429,6 +429,7 @@ address {
 .portfolio-item {
   background-color: #fff;
   flex-basis: calc((100% - 24px * 2) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -443,7 +444,7 @@ address {
 
   width: 360px;*/
 
-&&&&portfolio-cover-block {
+.portfolio-cover-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -456,7 +457,7 @@ address {
   overflow: auto;
 }
 
-.portfolio-cover-text {
+&&&portfolio-cover-text {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
