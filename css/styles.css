@@ -455,9 +455,6 @@ address {
   transform: translateY(100%);
   transition: transform 300ms linear;
   overflow: auto;
-}
-
-&&&portfolio-cover-text {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
