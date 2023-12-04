@@ -117,8 +117,8 @@ address {
 .current::after {
   content: "";
   position: absolute;
-  display: block;
-  width: 100%;
+  /* display: block;*/
+  width: 0;
   left: 0;
   height: 4px;
   border-radius: 2px;
@@ -581,7 +581,7 @@ address {
 }
 
 .footer-social-link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   text-decoration: none;
   font-weight: bold;
